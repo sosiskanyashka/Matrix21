@@ -219,8 +219,8 @@ START_TEST(test_mult_matrix_ok) {
   ck_assert_int_eq(res, 0);
   ck_assert_int_eq(C.rows, 2);
   ck_assert_int_eq(C.columns, 2);
-  ck_assert_double_eq(C.matrix[0][0], 9);   
-  ck_assert_double_eq(C.matrix[0][1], 11); 
+  ck_assert_double_eq(C.matrix[0][0], 9);
+  ck_assert_double_eq(C.matrix[0][1], 11);
   ck_assert_double_eq(C.matrix[1][0], 12);
   ck_assert_double_eq(C.matrix[1][1], 13);
   s21_remove_matrix(&A);
