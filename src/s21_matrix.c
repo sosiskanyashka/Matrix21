@@ -43,8 +43,6 @@ static double s21_determinant_recursive(s21_matrix* A) {
   return result;
 }
 
-// ====================== Основные функции ======================
-
 int s21_create_matrix(int rows, int columns, s21_matrix* result) {
   int res = 0;
   if (rows < 1 || columns < 1 || result == NULL) {
@@ -250,7 +248,6 @@ int s21_inverse_matrix(s21_matrix* A, s21_matrix* result) {
       if (fabs(det) < 1e-6) {
         res = 2;
       } else {
-        // Специальный случай для матрицы 1x1
         if (A->rows == 1) {
           res = s21_create_matrix(1, 1, result);
           if (res == 0) {
