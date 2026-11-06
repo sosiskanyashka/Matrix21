@@ -384,4 +384,4 @@ Implement basic operations with matrices (partially described [above](#matrix-op
 - The gcov_report target should generate a gcov report in the form of an html page. Unit tests must be run with gcov flags to do this.
 - The matrix must be implemented as the structure described [above](#matrix-structure-in-c-language).
 - Verifiable accuracy of the fractional part is up to 6 decimal places.
-- Your directory should not contain any files other than those specified in the assignments.
+- Your directory should not contain any files other than those specified in the assignments.# Matrix21
